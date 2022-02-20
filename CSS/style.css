@@ -361,13 +361,14 @@ p:last-child {
 }
 
 .project-item {
-  flex-basis: calc(100% / 3);
+  flex-basis: calc(100% / 3 - 30px);
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 
-.project-item:nth-last-child(-n + 3) {
+/* .project-item:nth-last-child() {
   margin-right: 0;
-}
+} */
 
 .galery-portfolio {
   border: block;
@@ -378,10 +379,10 @@ p:last-child {
 
 .project-footer {
   padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 24px;
-  padding-left: 24px;
-  margin-right: 20px;
+  padding-bottom: 19px;
+  padding-right: 20px;
+  padding-left: 20px;
+  /* margin-right: 20px; */
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
