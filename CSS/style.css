@@ -263,9 +263,6 @@ img {
 }
 
 .galery-item {
-  max-width: 100%;
-  height: auto;
-  display: block;
   margin-right: 30px;
   margin-left: auto;
 }
